@@ -1,0 +1,173 @@
+# DAY 2 Notes
+
+## HTML
+### Attributes
+- <a style="color:red"> Walmart.com</a>
+This is an example of an attribute.
+Decomposition =
+
+We did practice, deleting something remotely then updating the local repository.
+
+
+**How many windows are in Austin? There are houses, cars, business etc…
+
+# Front End vs Back End
+
+## Front-end
+- User
+- Design/User Experience/User Interface
+- Impact (request)
+- Devices
+- Technologies: HTML, VIEW, react, CSS, Javascript,Angular, JQuery,
+
+## Back-end
+-Programmer
+- Databasse/ PostGres = Relational Database
+- Java
+- Server
+- Security
+- Output/Response
+- noSQL
+- Technologies: PHP, C++, Node(JavaScript), Springboot
+
+## FRONT END
+
+HTML (Hyper Text Markup Language)
+-Attributes
+-default styling - default properties
+-metadata
+-semantic/ - accessibility
+
+## CSS
+
+- Border and content
+
+*** WE CREATED A NEW FOLDER IN OUR CLASS REPO  WHERE WE CREATED A NOTES***
+
+### When working with HTML always start with a index.html file
+#### We are working in the index.html file under firstDemo folder
+<!doctype html>
+<html lang = "en">
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+  <title>Document</title>
+</head>
+<body>
+
+i am not able to hear!!!
+</body>
+</html>
+
+-title is name of the page (what you see on the tab)
+-body is the content of the page (what the users see)
+
+Always change the file name when working on a document.
+
+What is the difference between an inline element and a block element?
+-Block elements take up as much room as possible on the page.
+-inline elements only take up as much space as necessary.
+
+  <h1 style="border:red 3px solid"> This is header one</h1>
+-note that this goes to the entire length of the page. 
+
+  <h2>Picture </h2>
+<img width= "300" height = "300" src="https://www.sunstarmodelcars.com/wp-content/uploads/2025/04/1.jpg" alt="Grey Rx-7" style="border:orange 3px solid">
+
+-note that the border only goes around the length of the image.
+
+below was what we used in class. 
+
+
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+  <title>Document</title>
+</head>
+<body>
+<!--used for heaadings and accessibility-->
+  <h1 style="border:red 3px solid"> This is header one</h1>
+<!--Note that this border is a block element so it spans the entire page.-->
+
+
+<h3>This is <span style="color: red"> header three </span> </h3>
+<!--We use span to isolate the styling to content that fall within the span-->
+
+<h6>This is header six</h6>
+
+<!--Note the size changes as we make concurrent headers-->
+
+<!--paragraph tags-->
+<p>This is my regular content</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet aspernatur atque consectetur consequatur, dicta eligendi error impedit magni minus mollitia nam nisi provident quas qui reiciendis reprehenderit similique vel!</p>
+  I am not able to hear!!! This is an example of body text.
+
+
+
+<!--alt tag is what displays if the image does not show in the webpage-->
+<!--we used the lorem + tab option to make this random string-->
+<!--this is a comment-->
+<!--Indentation doesnt matter-->
+<div style="border: blue 3px solid; width:400px; height:400px"><img width=95% height=95% src = "https://www.sunstarmodelcars.com/wp-content/uploads/2025/04/1.jpg" alt="Grey Rx-7" style="border:orange 3px solid">
+</div>
+<!--allows us to divide the content-->
+<!--always put images in some type of container-->
+<div>
+  <h3> What I want to do in Austin</h3>
+<!--  unordered list, they will give you bullet points. You can also use pngs or emojis-->
+  <ul>
+<!--    list items are li-->
+    <li> Eat food</li>
+    <li> Go to the lake</li>
+    <li> Go to school</li>
+  </ul>
+
+</div>
+
+<div>
+  <h3> What I want to do in Austin</h3>
+  <!--  ordered list, they will give you number points. can use roman numerals and alpha numeric-->
+  <ol>
+    <!--    list items are li-->
+    <li> Eat food</li>
+    <li> Go to the lake</li>
+    <li> Go to school</li>
+  </ol>
+
+</div>
+
+<!--Tabless-->
+<table style="border:green 3px solid">
+<!--  Headers, the top portion of the table or the row-->
+  <thead>
+  <tr>
+<!--    Columns-->
+    <td>First Name</td>
+    <td>Last Name</td>
+    <th>Age</th>
+<!--    th is bolded-->
+  </tr>
+  </thead>
+<!--  Body-->
+  <tbody>
+  <tr>
+    <td>Eric</td>
+    <td>Sengmany</td>
+  </tr>
+  <tr>
+    <td>Linh</td>
+    <td>Sengmany</td>
+  </tr>
+
+  </tbody>
+</table>
+
+</body>
+
+
+
+
+
+
+
+
